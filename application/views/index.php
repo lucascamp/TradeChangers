@@ -30,7 +30,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img id='logo' src="img/logo.png" alt=""></a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img  class="img-fluid" id='logo' src="img/logo.png" alt=""></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -77,7 +77,7 @@
                   </div>
                   <div class="col-lg-6 text-right">
                     <div id="success1"></div>
-                    <button id="1" class="submit btn btn-xl" >Receber Novidades do Mercado Financeiro</button>
+                    <button id="1" class="submit btn btn-xl" >Receber Novidades</button>
                   </div>
                 </div>
             </div>
@@ -248,7 +248,7 @@
                   </div>
                   <div class="col-lg-6 text-right">
                     <div id="success2"></div>
-                    <button id="2" class="submit btn btn-xl" >Receber Novidades do Mercado Financeiro</button>
+                    <button id="2" class="submit btn btn-xl" >Receber Novidades</button>
                   </div>
                 </div>
             </div>
@@ -567,6 +567,17 @@
   });  
 
 </script>
-  </body>
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107353896-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107353896-1');
+</script>
+
+</body>
 
 </html>
