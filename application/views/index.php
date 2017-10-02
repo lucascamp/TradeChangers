@@ -64,11 +64,11 @@
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input class="form-control" id="nome1" type="text" placeholder="Insira seu Nome *" required data-validation-required-message="Please enter your name.">
+                      <input class="form-control" id="nome1" type="text" placeholder="* Insira seu Nome" required>
                       <p class="help-block text-danger"></p>
                     </div>
                     <div class="form-group">
-                      <input class="form-control" id="email1" type="email" placeholder="Insira seu E-mail *" required data-validation-required-message="Please enter your email address.">
+                      <input class="form-control" id="email1" type="email" placeholder="* Insira seu E-mail" required>
                       <p class="help-block text-danger"></p>
                     </div>
                   </div>
@@ -235,11 +235,11 @@
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input class="form-control" id="nome2" type="text" placeholder="Insira seu Nome *" required data-validation-required-message="Please enter your name.">
+                      <input class="form-control" id="nome2" type="text" placeholder="* Insira seu Nome" required data-validation-required-message="Please enter your name.">
                       <p class="help-block text-danger"></p>
                     </div>
                     <div class="form-group">
-                      <input class="form-control" id="email2" type="email" placeholder="Insira seu E-mail *" required data-validation-required-message="Please enter your email address.">
+                      <input class="form-control" id="email2" type="email" placeholder="* Insira seu E-mail" required data-validation-required-message="Please enter your email address.">
                       <p class="help-block text-danger"></p>
                     </div>
                   </div>
@@ -310,9 +310,9 @@
                     <li>Client: Threads</li>
                     <li>Category: Illustration</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                  <button class="btn btn-primary btn-modal" data-dismiss="modal" type="button" onclick="levarForm()">
+                    <i class="fa fa-book"> </i>
+                     BAIXAR AGORA</button>
                 </div>
               </div>
             </div>
@@ -344,9 +344,9 @@
                     <li>Client: Explore</li>
                     <li>Category: Graphic Design</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                  <button class="btn btn-primary btn-modal" data-dismiss="modal" type="button" onclick="levarForm()">
+                    <i class="fa fa-book"> </i>
+                     BAIXAR AGORA</button>
                 </div>
               </div>
             </div>
@@ -378,9 +378,9 @@
                     <li>Client: Finish</li>
                     <li>Category: Identity</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                  <button class="btn btn-primary btn-modal" data-dismiss="modal" type="button" onclick="levarForm()">
+                    <i class="fa fa-book"> </i>
+                     BAIXAR AGORA!</button>
                 </div>
               </div>
             </div>
@@ -412,9 +412,9 @@
                     <li>Client: Lines</li>
                     <li>Category: Branding</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                  <button class="btn btn-primary btn-modal" data-dismiss="modal" type="button" onclick="levarForm()">
+                    <i class="fa fa-book"> </i>
+                     BAIXAR AGORA</button>
                 </div>
               </div>
             </div>
@@ -446,9 +446,9 @@
                     <li>Client: Southwest</li>
                     <li>Category: Website Design</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                  <button class="btn btn-primary btn-modal" data-dismiss="modal" type="button" onclick="levarForm()">
+				  <i class="fa fa-book"> </i> BAIXAR AGORA
+				  </button>
                 </div>
               </div>
             </div>
@@ -480,9 +480,9 @@
                     <li>Client: Window</li>
                     <li>Category: Photography</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                  <button class="btn btn-primary btn-modal" data-dismiss="modal" type="button">
+                    <i class="fa fa-book"> </i>
+                     BAIXAR AGORA</button>
                 </div>
               </div>
             </div>
@@ -493,6 +493,7 @@
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
+	<script src="js/others.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
