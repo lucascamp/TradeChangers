@@ -77,7 +77,7 @@
                   </div>
                   <div class="col-lg-6 text-right">
                     <div id="success1"></div>
-                    <button id="1" class="submit btn btn-xl" >Receber Novidades do Mercado Financeiro</button>
+                    <button id="1" class="submit btn btn-primary" >Receber Novidades do Mercado Financeiro</button>
                   </div>
                 </div>
             </div>
@@ -248,7 +248,7 @@
                   </div>
                   <div class="col-lg-6 text-right">
                     <div id="success2"></div>
-                    <button id="2" class="submit btn btn-xl" >Receber Novidades do Mercado Financeiro</button>
+                    <button id="2" class="submit btn btn-primary" >Receber Novidades do Mercado Financeiro</button>
                   </div>
                 </div>
             </div>
@@ -301,7 +301,7 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>Project Name</h2>
+                  <h2>Projecssst Name</h2>
                   <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
@@ -310,9 +310,9 @@
                     <li>Client: Threads</li>
                     <li>Category: Illustration</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <a class="btn btn-primary" data-dismiss="modal" type="button" href="#contact">
                     <i class="fa fa-times"></i>
-                    Close Project</button>
+                    Close Project</a>
                 </div>
               </div>
             </div>
