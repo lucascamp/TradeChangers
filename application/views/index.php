@@ -77,7 +77,7 @@
                   </div>
                   <div class="col-lg-6 text-right">
                     <div id="success1"></div>
-                    <button id="1" class="submit btn btn-xl" >Receber Novidades</button>
+                    <center><button id="1" class="submit btn btn-xl" >Receber Novidades</button></center>
                   </div>
                 </div>
             </div>
@@ -248,7 +248,7 @@
                   </div>
                   <div class="col-lg-6 text-right">
                     <div id="success2"></div>
-                    <button id="2" class="submit btn btn-xl" >Receber Novidades</button>
+                    <center><button id="2" class="submit btn btn-xl">Receber Novidades</button></center>
                   </div>
                 </div>
             </div>
