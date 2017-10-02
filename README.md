@@ -1,24 +1,17 @@
 # Gama Experience 11
 
 ## Equipe GameChangers
-- ###Hackers
+- Hackers
 	- Lucas Campos
 	- Gabriel Francisco
 	- Samuel Santos
-- ###Hipster
+- Hipster
 	- Darlan Carli
-- ###Hustlers
+- Hustlers
 	- Daniel Machado
 	- Eliane Silva
 	- Gabriela Estanislau
-- ###Hypers
+- Hypers
 	- Leonardo Soares
 	- Ricardo Viana
 	- Erickson Henrique
-
-##Instalação e uso
-Para utilizar esse projeto basta seguir os seguintes passos
-* Clone esse repositorio e rode localmente
-* Caso va subir pra algum repositorio não local altera o arquivo aplication/config/config.php
-	- $config['base_url'] = 'http://seudominio/pasta'; 
-
