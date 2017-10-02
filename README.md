@@ -2,20 +2,20 @@
 ## Belo Horizonte
 
 ## Equipe GameChangers
-###Hackers
-####-Lucas Campos
-####-Gabriel Francisco
-####-Samuel Santos
-###Hypster
-####-Darlan Carli
-###Hustlers
-####-Daniel Machado
-####-Eliane Silva
-####-Gabriela Estanislau
-###Hypers
-####-Leonardo Soares
-####-Ricardo Viana
-####-Erickson Henrique
+-Hackers
+ -Lucas Campos
+ -Gabriel Francisco
+ -Samuel Santos
+-Hypster
+ -Darlan Carli
+-Hustlers
+ -Daniel Machado
+ -Eliane Silva
+ -Gabriela Estanislau
+-Hypers
+ -Leonardo Soares
+ -Ricardo Viana
+ -Erickson Henrique
 
 ##Instalação e uso
 Para utilizar esse projeto basta seguir os seguintes passos
