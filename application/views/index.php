@@ -38,13 +38,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+              <a class="nav-link js-scroll-trigger" href="#services">Serviços</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Conteudo e E-Books</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Participar</a>
             </li>
           </ul>
         </div>
@@ -59,8 +59,9 @@
             <div class="col-lg-12">
                 <div class="row">
                   <div class="col-md-6">
-                    <h4>A maior consultoria e conteudo de investimentos</h4>
-                    <p>Receba nossos Conteúdos e Reports Financeiros <strong>Gratuitamente</strong></p>
+                    <h4>Descubra a melhor forma de investir!</h4>
+                    <p>Conectamos você as novidades do mercado financeiro.
+					Receba nossos conteúdos <strong>gratuitamente</strong> e saiba como multiplicar o seu dinheiro.</p>
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
@@ -91,8 +92,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Services</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading">Serviços</h2>
+            <h3 class="section-subheading text-muted">O que você encontra aqui.</h3>
           </div>
         </div>
         <div class="row text-center">
@@ -102,7 +103,7 @@
               <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">E-Books Gratis</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <p class="text-muted">Os melhores materiais para você saber as tendências do mercado financeiro e as melhores maneiras de diversificar seus investimentos e ampliar os rendimentos.</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -110,7 +111,7 @@
               <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Atualizações diárias</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <p class="text-muted">Notícias do mercado financeiro e tudo aquilo que o impacta sempre atualizadas para você não perder nada!</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -118,7 +119,7 @@
               <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Analise Personalizada</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <p class="text-muted">Nossos especialistas buscam sempre as informações mais qualificadas para que você possa tomar as melhores decisões sobre os seus investimentos.</p>
           </div>
         </div>
       </div>
@@ -129,8 +130,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Investir FGTS</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading">Materiais</h2>
+            <h3 class="section-subheading text-muted">Esses são nossos conteúdos em destaque.</h3>
           </div>
         </div>
         <div class="row">
@@ -230,8 +231,8 @@
             <div class="col-lg-12">
                 <div class="row">
                   <div class="col-md-6">
-                    <h4>A maior consultoria e conteudo de investimentos</h4>
-                    <p>Receba nossos Conteúdos e Reports Financeiros <strong>Gratuitamente</strong></p>
+                    <h4>Não quer perder nada? Cadastre-se!</h4>
+                    <p>Receba nossos Conteúdos e Reports Financeiros <strong>Gratuitamente</strong>!</p>
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
