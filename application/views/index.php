@@ -511,7 +511,7 @@
         }
 
         function validateNome(nome) {
-            nome.indexOf(' ') !== -1;
+            return nome.indexOf(' ') !== -1;
         }
 
         $(".submit").click(function(e) { // passing down the event 
