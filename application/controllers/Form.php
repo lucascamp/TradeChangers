@@ -12,10 +12,10 @@ class Form extends CI_Controller {
 	public function saveForm()
 	{
 		$data = $this->input->post();
-		$data['data_criacao'] =  date("Y-m-d H:i:s");
 		$data['ipv4'] = $_SERVER['REMOTE_ADDR'];
+		$data['datetime_cadastro'] =  date("Y-m-d H:i:s");
 
-		$this->db->insert('tb_leads', $data); 
+		$this->db->insert('tbl_lead', $data); 
 
 		echo json_encode(['type' => 1, 'value' => 'sucesso']);
 	}

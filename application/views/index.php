@@ -65,7 +65,7 @@
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input class="form-control" id="nome1" type="text" placeholder="* Insira seu Nome" required>
+                      <input class="form-control" id="nome1" type="text" placeholder="* Insira seu Nome Completo" required>
                       <p class="help-block text-danger"></p>
                     </div>
                     <div class="form-group">
@@ -236,7 +236,7 @@
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input class="form-control" id="nome2" type="text" placeholder="* Insira seu Nome" required data-validation-required-message="Please enter your name.">
+                      <input class="form-control" id="nome2" type="text" placeholder="* Insira seu Nome Completo" required data-validation-required-message="Please enter your name.">
                       <p class="help-block text-danger"></p>
                     </div>
                     <div class="form-group">
@@ -504,69 +504,75 @@
     <!-- Custom scripts for this template -->
     <script src="js/agency.js"></script>
     <script type="text/javascript">
-      $( document ).ready(function() {
-
+    $(document).ready(function() {
         function validateEmail(email) {
-          var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-          return re.test(email);
+            var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(email);
         }
 
-    $(".submit").click(function(e){  // passing down the event 
+        function validateNome(nome) {
+            nome.indexOf(' ') !== -1;
+        }
 
-      id = this.id;
-      nome = $('#nome'+id).val();
-      email = $('#email'+id).val();
+        $(".submit").click(function(e) { // passing down the event 
 
-      var count_name = nome.length;
+            id = this.id;
+            nome = $('#nome' + id).val().trim();
+            email = $('#email' + id).val().trim();
 
-      if (validateEmail(email)) {
-        if(count_name > 0){
-        $.ajax({
-          dataType: 'json',
-          type:'POST',
-          url: '<?= base_url() ?>'+'/index.php/Form/saveForm',
-          data:{nome:nome, email:email},
-          success: function(data) {
-            console.log(data.type);
-            if(data.type == 1)
-            {
-              $('#success'+id).html("<div class='alert alert-success'>");
-              $('#success'+id+' > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-              .append("</button>");
-              $('#success'+id+' > .alert-success')
-              .append("<strong>E-mail Cadastrado com sucesso! </strong>");
-              $('#success'+id+' > .alert-success')
-              .append('</div>');
-                  //clear all fields
-                  $('#contactForm').trigger("reset");
+            var count_name = nome.length;
+
+            if (!validateEmail(email)) {
+                $('#success' + id).html("<div class='alert alert-danger'>");
+                $('#success' + id + ' > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                    .append("</button>");
+                $('#success' + id + ' > .alert-danger').append($("<strong>").text("E-mail Inválido, favor verificar."));
+                $('#success' + id + ' > .alert-danger').append('</div>');
+                $('#contactForm').trigger("reset");
+            } else if (!validateNome(nome)) {
+                $('#success' + id).html("<div class='alert alert-danger'>");
+                $('#success' + id + ' > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                    .append("</button>");
+                $('#success' + id + ' > .alert-danger').append($("<strong>").text("Por favor insira seu nome completo."));
+                $('#success' + id + ' > .alert-danger').append('</div>');
+                $('#contactForm').trigger("reset");
+            } else {
+
+                if (count_name > 0) {
+                    $.ajax({
+                        dataType: 'json',
+                        type: 'POST',
+                        url: '<?= base_url() ?>' + 'index.php/Form/saveForm',
+                        data: {
+                            nome_completo: nome,
+                            email: email
+                        },
+                        success: function(data) {
+                            if (data.type == 1) {
+                                $('#success' + id).html("<div class='alert alert-success'>");
+                                $('#success' + id + ' > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                                    .append("</button>");
+                                $('#success' + id + ' > .alert-success')
+                                    .append("<strong>E-mail Cadastrado com sucesso! </strong>");
+                                $('#success' + id + ' > .alert-success')
+                                    .append('</div>');
+                                $('#contactForm').trigger("reset");
+                            }
+                        }
+                    });
+                } else {
+                    $('#success' + id).html("<div class='alert alert-danger'>");
+                    $('#success' + id + ' > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                        .append("</button>");
+                    $('#success' + id + ' > .alert-danger').append($("<strong>").text("Por favor insira um nome"));
+                    $('#success' + id + ' > .alert-danger').append('</div>');
+                    $('#contactForm').trigger("reset");
                 }
-              }
-            });
-        }
-        else
-        {
-          $('#success'+id).html("<div class='alert alert-danger'>");
-          $('#success'+id+' > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-        .append("</button>");
-          $('#success'+id+' > .alert-danger').append($("<strong>").text("Por favor insira um nome"));
-          $('#success'+id+' > .alert-danger').append('</div>');
-          //clear all fields
-          $('#contactForm').trigger("reset");
-        }
-      } else {
-        $('#success'+id).html("<div class='alert alert-danger'>");
-        $('#success'+id+' > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-        .append("</button>");
-        $('#success'+id+' > .alert-danger').append($("<strong>").text("E-mail Inválido, favor Verificar"));
-        $('#success'+id+' > .alert-danger').append('</div>');
-          //clear all fields
-          $('#contactForm').trigger("reset");
-        }
+            }
 
-      });
-    
-  });  
+        });
 
+    });
 </script>
 
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
