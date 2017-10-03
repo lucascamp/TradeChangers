@@ -209,12 +209,20 @@
       function validateNome(nome) {
         return nome.indexOf(' ') !== -1;
       }
+	  
+	  function formatarNome(nome) {
+		return nome.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+	  }
+	  
+	  function formatarEmail(email) {
+		return email.toLowerCase();
+	  }
 
       $(".submit").click(function(e) {
 
         id = this.id;
-        nome = $('#nome' + id).val().trim();
-        email = $('#email' + id).val().trim();
+        nome = formatarNome($('#nome' + id).val().trim());
+        email = formatarEmail($('#email' + id).val().trim());
 
         var count_name = nome.length;
 
