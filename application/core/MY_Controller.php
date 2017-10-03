@@ -42,10 +42,10 @@ class MY_Controller extends CI_Controller
     public function sendMail($email, $assunto, $conteudo)
     {
         $config['protocol']  = 'smtp';
-        $config['smtp_host'] = 'smtp.geraead.com.br';
+        $config['smtp_host'] = 'smtp.tradechangers.com.br';
         $config['smtp_port'] = 587;
-        $config['smtp_user'] = 'naoresponda@geraead.com.br';
-        $config['smtp_pass'] = 'nao@gera@2017';
+        $config['smtp_user'] = 'naoresponda@tradechangers.com.br';
+        $config['smtp_pass'] = 'nao@2017';
         $config['mailtype']  = 'html';
         $config['charset']   = 'utf-8';
         $config['wordwrap']  = true;
@@ -53,7 +53,7 @@ class MY_Controller extends CI_Controller
 
         $this->email->initialize($config);
 
-        $this->email->from('naoresponda@geraead.com.br', 'Gera Educacional');
+        $this->email->from('naoresponda@tradechangers.com.br', 'Trade Changers');
         $this->email->to($email);
         $this->email->subject($assunto);
         $this->email->message($conteudo);

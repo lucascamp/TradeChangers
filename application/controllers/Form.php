@@ -19,5 +19,21 @@ class Form extends CI_Controller {
 
 		echo json_encode(['type' => 1, 'value' => 'sucesso']);
 	}
+
+	public function saveForm()
+	{
+		$layoutEmail = $this->load->view('email', [
+			'nome'    => $checkForgot['value']->name . ' ' . $checkForgot['value']->lastName,
+			'email'   => $checkForgot['value']->email,
+			'senha'   => $newPassword,
+			'assunto' => 'Suporte para recuperação de senha',
+			], true);
+		$sendMail = $this->sendMail($checkForgot['value']->email, 'Suporte para recuperação de senha', $layoutEmail);
+	}
+
+	public function email()
+	{
+		$this->load->view('email');
+	}
 }
 
