@@ -52,6 +52,7 @@
 						if (isset($_POST['tipo']) && isset($_POST['produto']) && ($_POST['tipo'] != '0' || $_POST['produto'] != '0')){
 							$where .= " WHERE ";
 							$where .= $_POST['tipo'] != '0' ? "tipo='{$_POST['tipo']}'" : "";
+							$where .= $_POST['tipo'] != '0' && $_POST['produto'] != '0' ? " AND " : "";
 							$where .= $_POST['produto'] != '0' ? "produto='{$_POST['produto']}'" : "";
 						}
 						$sql = "SELECT * FROM tbl_lead".$where;
