@@ -37,7 +37,20 @@
 				</div>
 			</form>
 			<hr>
+			<?php
+				$conexao = mysqli_connect("mysql04-farm76.kinghost.net", "tradechangers", "123asd123", "tradechangers");
+				$where = "";
+				if (isset($_POST['tipo']) && isset($_POST['produto']) && ($_POST['tipo'] != '0' || $_POST['produto'] != '0')){
+					$where .= " WHERE ";
+					$where .= $_POST['tipo'] != '0' ? "tipo='{$_POST['tipo']}'" : "";
+					$where .= $_POST['tipo'] != '0' && $_POST['produto'] != '0' ? " AND " : "";
+					$where .= $_POST['produto'] != '0' ? "produto='{$_POST['produto']}'" : "";
+				}
+				$sql = "SELECT * FROM tbl_lead".$where;
+				if ($query = mysqli_query($conexao, $sql)){
+			?>
 			<div class="form-group">
+				<center><p>Quantidade de valores retornados: <?php echo mysqli_num_rows($query); ?></p></center>
 				<table class="table table-bordered table-hover">
 					<tr>
 						<th>Nome</th>
@@ -47,16 +60,6 @@
 						<th>Quando</th>
 					</tr>
 					<?php
-						$conexao = mysqli_connect("mysql04-farm76.kinghost.net", "tradechangers", "123asd123", "tradechangers");
-						$where = "";
-						if (isset($_POST['tipo']) && isset($_POST['produto']) && ($_POST['tipo'] != '0' || $_POST['produto'] != '0')){
-							$where .= " WHERE ";
-							$where .= $_POST['tipo'] != '0' ? "tipo='{$_POST['tipo']}'" : "";
-							$where .= $_POST['tipo'] != '0' && $_POST['produto'] != '0' ? " AND " : "";
-							$where .= $_POST['produto'] != '0' ? "produto='{$_POST['produto']}'" : "";
-						}
-						$sql = "SELECT * FROM tbl_lead".$where;
-						if ($query = mysqli_query($conexao, $sql)){
 							while ($row = mysqli_fetch_assoc($query)) {
 								$nome = utf8_encode($row['nome_completo']);
 								echo "<tr>";
