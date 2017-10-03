@@ -7,20 +7,20 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <title>TradeChangers</title>
-  <link href="<?= base_url(); ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="<?= base_url(); ?>/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-  <link href="<?= base_url(); ?>/css/agency.css" rel="stylesheet">
+  <link href="css/agency.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-       <img class="img-fluid" id='logo' src="<?= base_url(); ?>/img/logo.png" alt=""></a>
+       <img class="img-fluid" id='logo' src="img/logo.png" alt=""></a>
        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fa fa-bars"></i>
@@ -28,13 +28,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="<?= base_url(); ?>ebook">E-Books</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Conteúdos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Participar</a>
+            <a class="nav-link js-scroll-trigger" href="http://tradechangers.com.br/">Visite nosso Blog</a>
           </li>
         </ul>
       </div>
@@ -47,8 +41,8 @@
           <div class="col-lg-12">
             <div class="row">
               <div class="col-md-6">
-                <h4>Descubra a melhor forma de investir!</h4>
-                <p>Conectamos você as novidades do mercado financeiro. Receba nossos conteúdos <strong>gratuitamente</strong> e saiba como multiplicar o seu dinheiro.</p>
+                <h4>Perca o medo de investir!</h4>
+                <p>Receba nosso E-Book <strong>gratuitamente</strong> Com várias dicas de como aplicar e ter rendimentos em pouco tempo, sem mudar seu estilo de vida.</p>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
@@ -65,7 +59,7 @@
               </div>
               <div class="col-lg-6 text-right">
                 <div id="success1"></div>
-                <button id="1" class="submit btn btn-xl btn-block">Receber Novidades</button>
+                <button id="1" class="submit btn btn-xl btn-block">Receber E-Book</button>
               </div>
             </div>
           </div>
@@ -73,98 +67,6 @@
       </div>
     </div>
   </header>
-
-  <!-- Portfolio Grid -->
-  <section class="bg-light" id="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Conteúdos</h2>
-          <h3 class="section-subheading text-muted">Esses são nossos conteúdos em destaque.</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" href="<?= base_url(); ?>conteudo/juros">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="<?= base_url(); ?>/img/juros.png" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>De olho nos juros</h4>
-            <p class="text-muted">Veja como as diferentes taxas podem influenciar diretamente os seus investimentos.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" href="<?= base_url(); ?>conteudo/investirfgts">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="<?= base_url(); ?>/img/fgts.png" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Maneiras inteligentes de investir meu FGTS</h4>
-            <p class="text-muted">Saiba os caminhos para ter maior retorno sobre o seu FGTS, investindo no tesouro direto</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" href="<?= base_url(); ?>conteudo/futuroprevidencia">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="<?= base_url(); ?>/img/previdencia.png" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Sem a Previdência social, o que irá garantir meu futuro?</h4>
-            <p class="text-muted">Saia da zona de conforto e construa a sua aposentadoria por meio dos fundos de investimento.</p>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="container">
-      <div class="intro-text">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="row">
-              <div class="col-md-6">
-                <h4>Não quer perder nada? Cadastre-se!</h4>
-                <p>Receba nossos Conteúdos e Reports Financeiros <strong>Gratuitamente</strong>!</p>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input class="form-control" id="nome2" type="text" placeholder="* Insira seu Nome Completo" required data-validation-required-message="Please enter your name.">
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="form-group">
-                  <input class="form-control" id="email2" type="email" placeholder="* Insira seu E-mail" required data-validation-required-message="Please enter your email address.">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="clearfix"></div>
-              <div class="col-lg-6 text-right">
-              </div>
-              <div class="col-lg-6 text-right">
-                <div id="success2"></div>
-                <button id="2" class="submit btn btn-xl btn-block">Receber Novidades</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <footer>
     <div class="container">
@@ -193,12 +95,13 @@
     </div>
   </footer>
 
-  <script src="<?= base_url(); ?>/vendor/jquery/jquery.min.js"></script>
-  <script src="<?= base_url(); ?>/js/others.js"></script>
-  <script src="<?= base_url(); ?>/vendor/popper/popper.min.js"></script>
-  <script src="<?= base_url(); ?>/vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script src="<?= base_url(); ?>/vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="<?= base_url(); ?>/js/agency.js"></script>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="js/others.js"></script>
+  <script src="vendor/popper/popper.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="js/agency.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
       function validateEmail(email) {
@@ -242,7 +145,7 @@
               data: {
                 nome_completo: nome,
                 email: email,
-                produto: 'Newsletter'
+                produto: 'Ebook'
               },
               success: function(data) {
                 if (data.type == 1) {

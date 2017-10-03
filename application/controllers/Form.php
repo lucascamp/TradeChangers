@@ -14,13 +14,14 @@ class Form extends CI_Controller {
 		$data = $this->input->post();
 		$data['ipv4'] = $_SERVER['REMOTE_ADDR'];
 		$data['datetime_cadastro'] =  date("Y-m-d H:i:s");
-		
+		$data['tipo'] =  $this->leads->gerenciarTipo($data['email']);
+
 		$this->db->insert('tbl_lead', $data); 
 
 		echo json_encode(['type' => 1, 'value' => 'sucesso']);
 	}
 
-	public function saveForm()
+	public function sendMail()
 	{
 		$layoutEmail = $this->load->view('email', [
 			'nome'    => $checkForgot['value']->name . ' ' . $checkForgot['value']->lastName,
@@ -36,4 +37,3 @@ class Form extends CI_Controller {
 		$this->load->view('email');
 	}
 }
-
