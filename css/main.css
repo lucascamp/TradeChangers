@@ -298,22 +298,18 @@ header.masthead .form-group {
   .portfolio-modal .close-modal:hover {
     opacity: 0.3; }
   .portfolio-modal .close-modal .lr {
-    /* Safari and Chrome */
     z-index: 1051;
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    /* IE 9 */
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
     background-color: #222222; }
     .portfolio-modal .close-modal .lr .rl {
-      /* Safari and Chrome */
       z-index: 1052;
       width: 1px;
       height: 75px;
-      /* IE 9 */
       -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
       transform: rotate(90deg);
@@ -505,13 +501,11 @@ section#contact {
   section#contact :-moz-placeholder {
     font-weight: 700;
     color: #858786;
-    /* Firefox 18- */
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   section#contact ::-moz-placeholder {
     font-weight: 700;
     color: #858786;
-    /* Firefox 19+ */
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   section#contact :-ms-input-placeholder {

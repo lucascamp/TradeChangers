@@ -1,7 +1,6 @@
 (function($) {
-  "use strict"; // Start of use strict
-
-  // Smooth scrolling using jQuery easing
+  "use strict";
+  
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -15,27 +14,24 @@
     }
   });
 
-  // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
   });
 
-  // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
     offset: 54
   });
 
-  // Collapse the navbar when page is scrolled
   $(window).scroll(function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
-      $('#logo').attr("src", "../img/logo_branco.png");
+      $('#logo').attr("src", "img/logo_branco.png");
     } else {
       $("#mainNav").removeClass("navbar-shrink");
-      $('#logo').attr("src", "../img/logo.png");
+      $('#logo').attr("src", "http://tradechangers.com.br/img/logo.png");
     }
   });
 
-})(jQuery); // End of use strict
+})(jQuery);
 
