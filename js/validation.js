@@ -26,30 +26,39 @@
 	  }
 
       $(".submit").click(function(e) {
-
         id = this.id;
         nome = formatarNome($('#nome' + id).val().trim());
         email = formatarEmail($('#email' + id).val().trim());
-
+		
+		textoAntigo = $(this).html();
+		
+		$(this).prop('disabled', true);
+		$(this).html('<i class="fa fa-cog fa-spin fa-1x"></i> Enviando');
+		
         var count_name = nome.length;
 
         if (!validateEmail(email)) {
+		  $(this).prop('disabled', false);
+		  $(this).html(textoAntigo);
           enviarMensagemRuim("E-mail Inválido, favor verificar.");
         } else if (!validateNome(nome)) {
+		  $(this).prop('disabled', false);
+		  $(this).html(textoAntigo);
           enviarMensagemRuim("Por favor insira seu nome completo.");
         } else {
-
           if (count_name > 0) {
             $.ajax({
               dataType: 'json',
               type: 'POST',
-              url: 'form/saveForm',
+              url: 'http://tradechangers.com.br/form/saveForm',
               data: {
                 nome_completo: nome,
                 email: email,
                 produto: 'Newsletter'
               },
               success: function(data) {
+				$('.submit').prop('disabled', false);
+				$('.submit').html(textoAntigo);
                 if (data.type == 1) {
                   $('#success' + id).html("<div class='alert alert-success'>");
                   $('#success' + id + ' > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -64,6 +73,8 @@
                 }
               },
               error: function(jqXHR, exception) {
+				  $('.submit').prop('disabled', false);
+				  $('.submit').html(textoAntigo);
 				  enviarMensagemRuim('Este email já foi utilizado, cheque sua caixa de entrada.');
               }
             });
