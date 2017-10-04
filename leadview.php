@@ -38,7 +38,7 @@
 			</form>
 			<hr>
 			<?php
-				$conexao = mysqli_connect("mysql04-farm76.kinghost.net", "tradechangers", "123asd123", "tradechangers");
+				$conexao = mysqli_connect("mysql04-farm76.kinghost.net", "tradechangers", "saidafrentegama1", "tradechangers");
 				$where = "";
 				if (isset($_POST['tipo']) && isset($_POST['produto']) && ($_POST['tipo'] != '0' || $_POST['produto'] != '0')){
 					$where .= " WHERE ";
