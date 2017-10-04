@@ -13,7 +13,7 @@
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-  <link href="<?= base_url(); ?>/css/agency.css" rel="stylesheet">
+  <link href="<?= base_url(); ?>/css/main.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -186,7 +186,7 @@
     <script src="<?= base_url(); ?>/vendor/popper/popper.min.js"></script>
     <script src="<?= base_url(); ?>/vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="<?= base_url(); ?>/vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="<?= base_url(); ?>/js/agency2.js"></script>
+    <script src="<?= base_url(); ?>/js/main.js"></script>
 	<script type="text/javascript" src="<?= base_url(); ?>/js/validation.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107353896-1"></script>
 <script>

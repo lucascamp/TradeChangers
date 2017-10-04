@@ -13,7 +13,7 @@
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-  <link href="<?= base_url(); ?>/css/agency.css" rel="stylesheet">
+  <link href="<?= base_url(); ?>/css/main.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -95,100 +95,12 @@
     </div>
   </footer>
 
-
   <script src="<?= base_url(); ?>vendor/jquery/jquery.min.js"></script>
-  <script src="<?= base_url(); ?>js/others.js"></script>
   <script src="<?= base_url(); ?>vendor/popper/popper.min.js"></script>
   <script src="<?= base_url(); ?>vendor/bootstrap/js/bootstrap.min.js"></script>
   <script src="<?= base_url(); ?>vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="<?= base_url(); ?>js/agency2.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      function validateEmail(email) {
-        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        return re.test(email);
-      }
-
-      function validateNome(nome) {
-        return nome.indexOf(' ') !== -1;
-      }
-
-      $(".submit").click(function(e) {
-
-        id = this.id;
-        nome = $('#nome' + id).val().trim();
-        email = $('#email' + id).val().trim();
-
-        var count_name = nome.length;
-
-        if (!validateEmail(email)) {
-          $('#success' + id).html("<div class='alert alert-danger'>");
-          $('#success' + id + ' > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-          .append("</button>");
-          $('#success' + id + ' > .alert-danger').append($("<strong>").text("E-mail Inválido, favor verificar."));
-          $('#success' + id + ' > .alert-danger').append('</div>');
-          $('#contactForm').trigger("reset");
-        } else if (!validateNome(nome)) {
-          $('#success' + id).html("<div class='alert alert-danger'>");
-          $('#success' + id + ' > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-          .append("</button>");
-          $('#success' + id + ' > .alert-danger').append($("<strong>").text("Por favor insira seu nome completo."));
-          $('#success' + id + ' > .alert-danger').append('</div>');
-          $('#contactForm').trigger("reset");
-        } else {
-
-          if (count_name > 0) {
-            $.ajax({
-              dataType: 'json',
-              type: 'POST',
-              url: '<?= base_url() ?>' + 'Form/saveForm',
-              data: {
-                nome_completo: nome,
-                email: email,
-                produto: 'Ebook'
-              },
-              success: function(data) {
-                if (data.type == 1) {
-                  $('#success' + id).html("<div class='alert alert-success'>");
-                  $('#success' + id + ' > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                  .append("</button>");
-                  $('#success' + id + ' > .alert-success')
-                  .append("<strong>E-mail Cadastrado com sucesso! </strong>");
-                  $('#success' + id + ' > .alert-success')
-                  .append('</div>');
-                  $('#contactForm').trigger("reset");
-                } else {
-                  $('#success' + id).html("<div class='alert alert-danger'>");
-                  $('#success' + id + ' > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                  .append("</button>");
-                  $('#success' + id + ' > .alert-danger').append($("<strong>").text("Erro! Tente novamente mais tarde."));
-                  $('#success' + id + ' > .alert-danger').append('</div>');
-                  $('#contactForm').trigger("reset");
-                }
-              },
-              error: function(jqXHR, exception) {
-                $('#success' + id).html("<div class='alert alert-danger'>");
-                $('#success' + id + ' > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                .append("</button>");
-                $('#success' + id + ' > .alert-danger').append($("<strong>").text("Erro! Tente novamente mais tarde."));
-                $('#success' + id + ' > .alert-danger').append('</div>');
-                $('#contactForm').trigger("reset");
-              }
-            });
-          } else {
-            $('#success' + id).html("<div class='alert alert-danger'>");
-            $('#success' + id + ' > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-            .append("</button>");
-            $('#success' + id + ' > .alert-danger').append($("<strong>").text("Por favor insira um nome"));
-            $('#success' + id + ' > .alert-danger').append('</div>');
-            $('#contactForm').trigger("reset");
-          }
-        }
-
-      });
-
-    });
-  </script>
+  <script src="<?= base_url(); ?>js/main.js"></script>
+  <script type="text/javascript" src="<?= base_url(); ?>/js/validation.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107353896-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];

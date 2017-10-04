@@ -13,7 +13,7 @@
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-  <link href="<?= base_url(); ?>/css/agency.css" rel="stylesheet">
+  <link href="<?= base_url(); ?>/css/main.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -31,7 +31,7 @@
             <a class="nav-link js-scroll-trigger" href="<?= base_url(); ?>ebook">E-Books</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Conteúdos</a>
+            <a class="nav-link js-scroll-trigger" href="#conteudo">Conteúdos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Participar</a>
@@ -74,8 +74,7 @@
     </div>
   </header>
 
-  <!-- Portfolio Grid -->
-  <section class="bg-light" id="portfolio">
+  <section class="bg-light" id="conteudo">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -84,45 +83,45 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" href="<?= base_url(); ?>conteudo/juros">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
+        <div class="col-md-4 col-sm-6 conteudo-item">
+        <a class="conteudo-link" href="<?= base_url(); ?>conteudo/juros">
+            <div class="conteudo-hover">
+              <div class="conteudo-hover-content">
+                <center>Saiba mais!</center>
               </div>
             </div>
             <img class="img-fluid" src="<?= base_url(); ?>/img/juros.png" alt="">
           </a>
-          <div class="portfolio-caption">
+          <div class="conteudo-caption">
             <h4>De olho nos juros</h4>
             <p class="text-muted">Veja como as diferentes taxas podem influenciar diretamente os seus investimentos.
             </p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" href="<?= base_url(); ?>conteudo/investirfgts">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
+        <div class="col-md-4 col-sm-6 conteudo-item">
+          <a class="conteudo-link" href="<?= base_url(); ?>conteudo/investirfgts">
+            <div class="conteudo-hover">
+              <div class="conteudo-hover-content">
+                <center>Saiba mais!</center>
               </div>
             </div>
             <img class="img-fluid" src="<?= base_url(); ?>/img/fgts.png" alt="">
           </a>
-          <div class="portfolio-caption">
+          <div class="conteudo-caption">
             <h4>Maneiras inteligentes de investir meu FGTS</h4>
             <p class="text-muted">Saiba os caminhos para ter maior retorno sobre o seu FGTS, investindo no tesouro direto</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" href="<?= base_url(); ?>conteudo/futuroprevidencia">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
+        <div class="col-md-4 col-sm-6 conteudo-item">
+          <a class="conteudo-link" href="<?= base_url(); ?>conteudo/futuroprevidencia">
+            <div class="conteudo-hover">
+              <div class="conteudo-hover-content">
+                <center>Saiba mais!</center>
               </div>
             </div>
             <img class="img-fluid" src="<?= base_url(); ?>/img/previdencia.png" alt="">
           </a>
-          <div class="portfolio-caption">
+          <div class="conteudo-caption">
             <h4>Sem a Previdência social, o que irá garantir meu futuro?</h4>
             <p class="text-muted">Saia da zona de conforto e construa a sua aposentadoria por meio dos fundos de investimento.</p>
           </div>
@@ -194,11 +193,10 @@
   </footer>
 
   <script src="<?= base_url(); ?>/vendor/jquery/jquery.min.js"></script>
-  <script src="<?= base_url(); ?>/js/others.js"></script>
   <script src="<?= base_url(); ?>/vendor/popper/popper.min.js"></script>
   <script src="<?= base_url(); ?>/vendor/bootstrap/js/bootstrap.min.js"></script>
   <script src="<?= base_url(); ?>/vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="<?= base_url(); ?>/js/agency.js"></script>
+  <script src="<?= base_url(); ?>/js/main.js"></script>
   <script type="text/javascript" src="<?= base_url(); ?>/js/validation.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107353896-1"></script>
   <script>
