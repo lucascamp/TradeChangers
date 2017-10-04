@@ -78,62 +78,63 @@
           <p class="item-intro text-muted"></p>
           <img class="img-fluid d-block mx-auto" src="<?= base_url(); ?>/img/previdencia.png" alt="">
           <p align="Justify">Já é de comum conhecimento que a Previdência social não irá oferecer ao
-          cidadão o mínimo necessário para viver uma velhice com conforto e
-          tranquilidade. Os números não fecham e com a reforma previdenciária, esse
-          benefício só nos estará disponível tardiamente.</p>
-          <p align = "Justify">Com isso, o brasileiro começou a planejar por si só como será seu futuro. Isso
-          é bom, mas a maioria não sabe ao certo onde investir, a quem recorrer e o que
-          fazer com o dinheiro poupado. Sendo assim, muitas pessoas enxerga apenas a
-          previdência privada como solução para uma aposentadoria de qualidade, mas
-          será este o certo a se fazer?</p>
-          <p align="Justify">Existe uma relação inversamente proporcional entre a segurança que um
-          investimento tem e o rendimento que ele gera, sendo que, quanto mais
-          segurança, menor é o rendimento fornecido, e quanto mais arrojado for o
-          investimento, maior potencial de altos ganhos. Diante dessa matemática, é
-          necessário que se faça uma breve análise da jornada do seu dinheiro quando
-          aplicado em previdência privada.</p>
-          <p align="Justify">Ao procurar um grande banco para abertura de uma previdência privada, a
-          conversa iniciará com a taxa de carregamento do aporte financeiro. Essa taxa
-          chega até a 5% e será cobrada toda vez em que o cliente for aportar qualquer
-          valor ao seu plano de previdência. Veja só, caso seja separado R$500,00 por
-          mês para investir em um plano, apenas R$475,00 serão depositados na conta
-          do cliente. Em um ano o cliente depositou R$6.000,00, porém R$300,00 foram
-          destinados ao banco e lhe restou apenas R$5.700,00 para a previdência. Uma
-          vez que o dinheiro já está dentro da instituição bancária, é cobrada uma alta
-          taxa de administração, mesmo tratando-se de um investimento muito simples
-          de ser gerenciado pela instituição, com mínimos riscos, além da remuneração
-          que o cliente já fornece ao banco por todo aporte feito.</p>
-          <p align ="Justify">Sendo assim, um rendimento que já é baixo irá sofrer muito com um desconto
-          de até 3,5% ao ano. Agora o cliente acredita que acabou, que tudo o que
-          deveria ser pago já foi e crê que só lhe esperar tranquilo para, em sua velhice,
-          usufruir do seu árduo investimento ao longo dos anos. Mas é aí que você,
-          investidor, sofre um grande golpe. Todo valor investido não voltará para sua
-          mão sem que antes sejam retirados algumas fatias, uma para o próprio banco,
-          com a taxa de saída e outra bem significante para o governo, com a cobrança
-          do IR, podendo chegar até 27,5% sobre o total investido.</p>
-          <p align = "Justify">E agora, o que se deve fazer? Qual é a melhor saída? A recomendação de
-          todos os especialistas é sempre ter uma diversificação nos investimentos
-          feitos. O ideal é que o cliente dilua os valores disponíveis para investir, sendo
-          uma parte em investimentos de renda fixa, que são bem confiáveis e não
-          necessitam tanto da sua atenção e cuidado, e a outra parcela em investimento
-          em renda variável. A vantagem de diversificar é que por um lado o cliente
-          garante segurança financeira com um retorno razoável e por outro lado,
-          ousadia para estudar investimentos mais arrojados com possibilidades de altos
-          ganhos.</p>
-          <p align = "Justify">Quando o assunto é sair da zona de conforto e planejar os seus investimentos,
-          as opções são as mais generalizadas possíveis. Pode-se pensar em títulos do
-          tesouro como o <b>Tesouro IPCA+</b>, que paga uma rentabilidade definida
-          previamente, adicionada ao IPCA (Índice de Preços ao Consumidor Amplo) do
-          ano, com muita segurança e alta liquidez. Também é uma excelente opção
-          investir na <b>Bolsa de Valores</b>. Essa sim lhe requer um pouco mais de atenção,
-          porém, como foi dito no início, a relação inversamente proporcional entre
-          segurança de um investimento e a rentabilidade que ele lhe proporciona é o
-          que torna essa opção como algo indispensável para qualquer pessoa que
-          pretende investir. Talvez se imagine que investir em ações não é para qualquer
-          pessoa, mas vale repensar essa ideia, pode ser mais acessível e simples do
-          que se imagina. É hora de levar nosso pensamento além do convencional,
-          sabendo que, com um pouco de dedicação e planejamento, conseguimos obter
-          grandes resultados com os investimentos feitos.</p>
+            cidadão o mínimo necessário para viver uma velhice com conforto e
+            tranquilidade. Os números não fecham e com a reforma previdenciária, esse
+            benefício só nos estará disponível tardiamente.
+            Com isso, o brasileiro começou a planejar por si só como será seu futuro. Isso
+            é bom, mas a maioria não sabe ao certo onde investir, a quem recorrer e o que
+            fazer com o dinheiro poupado. Sendo assim, muitas pessoas enxerga apenas a
+            previdência privada como solução para uma aposentadoria de qualidade, mas
+            será este o certo a se fazer?
+            Existe uma relação inversamente proporcional entre a segurança que um
+            investimento tem e o rendimento que ele gera, sendo que, quanto mais
+            segurança, menor é o rendimento fornecido, e quanto mais arrojado for o
+            investimento, maior potencial de altos ganhos. Diante dessa matemática, é
+            necessário que se faça uma breve análise da jornada do seu dinheiro quando
+            aplicado em previdência privada.
+            Ao procurar um grande banco para abertura de uma previdência privada, a
+            conversa iniciará com a taxa de carregamento do aporte financeiro. Essa taxa
+            chega até a 5% e será cobrada toda vez em que o cliente for aportar qualquer
+            valor ao seu plano de previdência. Veja só, caso seja separado R$500,00 por
+            mês para investir em um plano, apenas R$475,00 serão depositados na conta
+            do cliente. Em um ano o cliente depositou R$6.000,00, porém R$300,00 foram
+            destinados ao banco e lhe restou apenas R$5.700,00 para a previdência. Uma
+            vez que o dinheiro já está dentro da instituição bancária, é cobrada uma alta
+            taxa de administração, mesmo tratando-se de um investimento muito simples
+            de ser gerenciado pela instituição, com mínimos riscos, além da remuneração
+            que o cliente já fornece ao banco por todo aporte feito.
+            Sendo assim, um rendimento que já é baixo irá sofrer muito com um desconto
+            de até 3,5% ao ano. Agora o cliente acredita que acabou, que tudo o que
+            deveria ser pago já foi e crê que só lhe esperar tranquilo para, em sua velhice,
+            usufruir do seu árduo investimento ao longo dos anos. Mas é aí que você,
+            investidor, sofre um grande golpe. Todo valor investido não voltará para sua
+            mão sem que antes sejam retirados algumas fatias, uma para o próprio banco,
+            com a taxa de saída e outra bem significante para o governo, com a cobrança
+            do IR, podendo chegar até 27,5% sobre o total investido.
+            E agora, o que se deve fazer? Qual é a melhor saída? A recomendação de
+            todos os especialistas é sempre ter uma diversificação nos investimentos
+            feitos. O ideal é que o cliente dilua os valores disponíveis para investir, sendo
+            uma parte em investimentos de renda fixa, que são bem confiáveis e não
+            necessitam tanto da sua atenção e cuidado, e a outra parcela em investimento
+            em renda variável. A vantagem de diversificar é que por um lado o cliente
+            garante segurança financeira com um retorno razoável e por outro lado,
+
+            ousadia para estudar investimentos mais arrojados com possibilidades de altos
+            ganhos.
+            Quando o assunto é sair da zona de conforto e planejar os seus investimentos,
+            as opções são as mais generalizadas possíveis. Pode-se pensar em títulos do
+            tesouro como o Tesouro IPCA+, que paga uma rentabilidade definida
+            previamente, adicionada ao IPCA (Índice de Preços ao Consumidor Amplo) do
+            ano, com muita segurança e alta liquidez. Também é uma excelente opção
+            investir na Bolsa de Valores. Essa sim lhe requer um pouco mais de atenção,
+            porém, como foi dito no início, a relação inversamente proporcional entre
+            segurança de um investimento e a rentabilidade que ele lhe proporciona é o
+            que torna essa opção como algo indispensável para qualquer pessoa que
+            pretende investir. Talvez se imagine que investir em ações não é para qualquer
+            pessoa, mas vale repensar essa ideia, pode ser mais acessível e simples do
+            que se imagina. É hora de levar nosso pensamento além do convencional,
+            sabendo que, com um pouco de dedicação e planejamento, conseguimos obter
+            grandes resultados com os investimentos feitos.</p>
         </div>
     </div>
 </div>

@@ -78,96 +78,95 @@
           <p class="item-intro text-muted">Saiba como eles podem influenciar diretamente os seus investimentos.</p>
           <img class="img-fluid d-block mx-auto" src="<?= base_url(); ?>/img/juros.png" alt="">
           <p align="Justify">Um desafio presente no cotidiano dos brasileiros é a administração dos juros e
-          as melhores maneiras de otimizar essas taxas. Até porque sempre nos
-          deparamos com os juros no momento de realizar transações, pedir
-          empréstimos ou até mesmo aplicar o nosso dinheiro. Mas muitos não sabem
-          de fato o que está por trás das porcentagens ou os impactos que elas podem
-          causar na nossa vida financeira.</p>
-          <p align ="Justify">Antes de desbravar o universo dos juros, vamos primeiro esclarecer o que eles
-          realmente são. Juros são todos os rendimentos obtidos sobre o empréstimo de
-          dinheiro por um determinado período. Para o credor é a forma de compensar
-          pelo tempo que ficará sem utilizar o dinheiro emprestado.</p>
-          <p align ="Justify">Por esse motivo, quando é solicitado um empréstimo em instituições privadas,
-          é incluso ao valor a taxa de juros. O mesmo acontece em situações de
-          financiamento de veículos e imóveis. Entretanto, isso não se aplica apenas em
-          ocasiões de empréstimos e financiamentos. Quando investimos de alguma
-          maneira o nosso dinheiro, nos tornamos credores dos bancos ou do governo e,
-          com isso, arcamos com os juros. Estas instituições emitem títulos e vendem
-          para o mercado como forma de se financiar. É a maneira que eles encontraram
-          para incentivar pessoas a investirem e, consequentemente, as instituições
-          obtém recursos para realizar empréstimos com uma taxa de juros superior ao
-          que está pagando ao credor.</p>
-          <p align ="Justify">E como tudo isso impacta na decisão de investimos o nosso dinheiro?</p>
-          <p align ="Justify">Se você tem acompanhado os jornais ou noticiários, saberá que o governo
-          reduziu a taxa básica de juros da economia, que está operando abaixo da meta
-          em uma taxa diária de 8,15%, sendo a meta 0,10% acima desse número. Isso
-          significa que o pagamento pelos juros dos investimentos está sendo menor,
-          levando em consideração que a remuneração em renda fixa, na maioria das
-          vezes, é feita em cima desse indicador.</p>
-          <p align ="Justify">Então isso quer dizer que investir não está sendo um bom negócio? Não
-          exatamente!</p>
+            as melhores maneiras de otimizar essas taxas. Até porque sempre nos
+            deparamos com os juros no momento de realizar transações, pedir
+            empréstimos ou até mesmo aplicar o nosso dinheiro. Mas muitos não sabem
+            de fato o que está por trás das porcentagens ou os impactos que elas podem
+            causar na nossa vida financeira.
+            Antes de desbravar o universo dos juros, vamos primeiro esclarecer o que eles
+            realmente são. Juros são todos os rendimentos obtidos sobre o empréstimo de
+            dinheiro por um determinado período. Para o credor é a forma de compensar
+            pelo tempo que ficará sem utilizar o dinheiro emprestado.
+            Por esse motivo, quando é solicitado um empréstimo em instituições privadas,
+            é incluso ao valor a taxa de juros. O mesmo acontece em situações de
+            financiamento de veículos e imóveis. Entretanto, isso não se aplica apenas em
+            ocasiões de empréstimos e financiamentos. Quando investimos de alguma
+            maneira o nosso dinheiro, nos tornamos credores dos bancos ou do governo e,
+            com isso, arcamos com os juros. Estas instituições emitem títulos e vendem
+            para o mercado como forma de se financiar. É a maneira que eles encontraram
+            para incentivar pessoas a investirem e, consequentemente, as instituições
+            obtém recursos para realizar empréstimos com uma taxa de juros superior ao
+            que está pagando ao credor.
+            E como tudo isso impacta na decisão de investimos o nosso dinheiro?
+            Se você tem acompanhado os jornais ou noticiários, saberá que o governo
+            reduziu a taxa básica de juros da economia, que está operando abaixo da meta
+            em uma taxa diária de 8,15%, sendo a meta 0,10% acima desse número. Isso
+            significa que o pagamento pelos juros dos investimentos está sendo menor,
+            levando em consideração que a remuneração em renda fixa, na maioria das
+            vezes, é feita em cima desse indicador.
+            Então isso quer dizer que investir não está sendo um bom negócio? Não
+            exatamente!</p>
 
-         <h6><i><u>Como a Taxa Selic impacta na inflação e nos investimentos?</u></i></h6>
+            <h6><i><u>Como a Taxa Selic impacta na inflação e nos investimentos?</u></i></h6>
 
-          <p align="Justify">O Banco Central tem como competência e responsabilidade a emissão da
-          moeda no Brasil, o que está diretamente atrelado à inflação. Para isso, eles
-          possuem uma meta que precisa ser controlada, pois caso exista o risco do
-          limite ser ultrapassado, os juros são elevados. O grande problema disso é que
-          as altas taxas inibem o consumo, o que diminui a pressão de aumento sobre os
-          preços, por não existir demanda.</p>
+            <p align="Justify">O Banco Central tem como competência e responsabilidade a emissão da
+              moeda no Brasil, o que está diretamente atrelado à inflação. Para isso, eles
+              possuem uma meta que precisa ser controlada, pois caso exista o risco do
+              limite ser ultrapassado, os juros são elevados. O grande problema disso é que
+              as altas taxas inibem o consumo, o que diminui a pressão de aumento sobre os
+              preços, por não existir demanda.
 
-          <p align ="Justify">Em resumo, o governo precisa incentivar a oferta de empréstimos para que
-          seja reduzida a Selic. Assim, é possível motivar o consumidor a movimentar a
-          economia.</p>
-          <p align ="Justify">Quando a economia está aquecida, para evitar o descontrole dos preços, o
-          governo aumenta a taxa Selic. Isso leva pessoas a reduzirem seus gastos,
-          fazendo com que o comércio diminua os preços dos produtos, para a inflação
-          recuar.</p>
-          <p align ="Justify">Portanto, a taxa Selic é a maneira que o governo encontrou para controlar a
-          inflação. Se a taxa é elevada, isso significa que existe menos crédito disponível
-          e, com isso, menos dinheiro no mercado e menos demanda por produtos à
-          venda.</p>
-          <p align ="Justify">Assim, se você está prestes a investir em algo, o mais adequado a fazer é
-          consultar como estão sendo praticadas as taxa de juros pelo mercado e como
-          está sendo o desempenho da inflação em relação à taxa Selic. Somente assim
-          será possível prever os famosos “booms” de mercado, onde conseguimos
-          identificar quando serão os maiores rendimentos.</p>
+              Em resumo, o governo precisa incentivar a oferta de empréstimos para que
+              seja reduzida a Selic. Assim, é possível motivar o consumidor a movimentar a
+              economia.
+              Quando a economia está aquecida, para evitar o descontrole dos preços, o
+              governo aumenta a taxa Selic. Isso leva pessoas a reduzirem seus gastos,
+              fazendo com que o comércio diminua os preços dos produtos, para a inflação
+              recuar.
+              Portanto, a taxa Selic é a maneira que o governo encontrou para controlar a
+              inflação. Se a taxa é elevada, isso significa que existe menos crédito disponível
+              e, com isso, menos dinheiro no mercado e menos demanda por produtos à
+              venda.
+              Assim, se você está prestes a investir em algo, o mais adequado a fazer é
+              consultar como estão sendo praticadas as taxa de juros pelo mercado e como
+              está sendo o desempenho da inflação em relação à taxa Selic. Somente assim
+              será possível prever os famosos “booms” de mercado, onde conseguimos
+              identificar quando serão os maiores rendimentos.</p>
 
-         <h6><i><u>Como a flutuação da taxa de juros afeta os investimentos?</u></i></h6>
-          <p align="Justify">
-          É comum no mercado financeiro ouvir que as taxas de inflação no Brasil eram
-          flutuantes, o que garantia grande variação de preços no mesmo dia. Pela
-          manhã 5 quilos de arroz custava R$ 10,00 e no fim do dia esse valor poderia
-          estar R$ 2,00  mais barato ou até mesmo R$ 8,00 mais caro! Isso porque o
-          governo estava combatendo a inflação, o que garantiu grande instabilidade
-          financeira. Atualmente, temos isso melhor controlado, com políticas fiscais bem
-          definidas e com metas melhores estabelecidas.</p>
-         <p align ="Justify">Essas informações, contudo, não isentam investidores de pensar que aplicar os
-          seus fundos se tornou menos ou mais atrativos. Ainda mais quando estamos
-          em um cenário que a taxa <b>nominal</b> de juros sobe e cai diariamente, já que esta
-          taxa não está atrelada à inflação no mesmo período.</p>
-         <p align ="Justify">Mas não foi dito anteriormente que a taxa de juros era diretamente atrelada à
-          inflação? Sim, você leu certo. Acontece que o indicador em que estávamos nos
-          referindo ao longo deste texto se trata da taxa real de juros, que é o que
-          realmente irá gerar retorno ao investidor, pois ela remunera acima da inflação,
-          no momento em que está sendo avaliado o investimento.</p>
-          <p align ="Justify">Já a taxa <b>nominal</b> é analisada sobre um período de tempo que não
-          necessariamente está atrelado à taxa real, por isso ela costuma ser incluída em
-          uma operação financeira, já que cede previsões de médio a longo prazo. Por
-          exemplo, se uma instituição financeira nosoferecer um fundo de investimento
-          que renderá 12% ao ano.</p>
+              <h6><i><u>Como a flutuação da taxa de juros afeta os investimentos?</u></i></h6>
+              <p align="Justify">
+                É comum no mercado financeiro ouvir que as taxas de inflação no Brasil eram
+                flutuantes, o que garantia grande variação de preços no mesmo dia. Pela
+                manhã 5 quilos de arroz custava R$ 10,00 e no fim do dia esse valor poderia
+                estar R$ 2,00  mais barato ou até mesmo R$ 8,00 mais caro! Isso porque o
+                governo estava combatendo a inflação, o que garantiu grande instabilidade
+                financeira. Atualmente, temos isso melhor controlado, com políticas fiscais bem
+                definidas e com metas melhores estabelecidas.
+                Essas informações, contudo, não isentam investidores de pensar que aplicar os
+                seus fundos se tornou menos ou mais atrativos. Ainda mais quando estamos
+                em um cenário que a taxa nominal de juros sobe e cai diariamente, já que esta
+                taxa não está atrelada à inflação no mesmo período.
+                Mas não foi dito anteriormente que a taxa de juros era diretamente atrelada à
+                inflação? Sim, você leu certo. Acontece que o indicador em que estávamos nos
+                referindo ao longo deste texto se trata da taxa real de juros, que é o que
+                realmente irá gerar retorno ao investidor, pois ela remunera acima da inflação,
+                no momento em que está sendo avaliado o investimento.
+                Já a taxa nominal é analisada sobre um período de tempo que não
+                necessariamente está atrelado à taxa real, por isso ela costuma ser incluída em
+                uma operação financeira, já que cede previsões de médio a longo prazo. Por
+                exemplo, se uma instituição financeira nosoferecer um fundo de investimento
+                que renderá 12% ao ano.</p>
 
 
-         <h6><i><u>Quando e como eu devo investir?</u></i></h6>
-          <p align="Justify">
-          Não existe período ou data certa para o investimento. Não existe sazonalidade
-          ou também garantia exata de retorno. Todo e qualquer investimento deve ser
-          analisado de acordo com as taxas, indicadores e juros previstos para o período
-          da aplicação. Por esse motivo, é importante entender os percalços que a
-          inflação e os juros podem gerar no momento de aplicar seu dinheiro no
-          mercado financeiro.</p>
-
-                
+                <h6><i><u>Quando e como eu devo investir?</u></i></h6>
+                <p align="Justify">
+                  Não existe período ou data certa para o investimento. Não existe sazonalidade
+                  ou também garantia exata de retorno. Todo e qualquer investimento deve ser
+                  analisado de acordo com as taxas, indicadores e juros previstos para o período
+                  da aplicação. Por esse motivo, é importante entender os percalços que a
+                  inflação e os juros podem gerar no momento de aplicar seu dinheiro no
+                  mercado financeiro.</p>
+                </p>
               </div>
             </div>
           </div>
