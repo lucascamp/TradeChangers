@@ -9,7 +9,7 @@ class Leads_model extends MY_Model {
 
     public function gerenciarTipo($email)
     {
-		$tipos = ["gmail", "yahoo", "msn", "hotmail", "outlook", "live", "bol", "ig", "oi", "pop", "zipmail"];
+		$tipos = ["gmail", "yahoo", "msn", "hotmail", "outlook", "live", "bol", "ig", "oi", "pop", "zipmail", "terra", "icloud"];
 		preg_match("/\@(.*?)\./", $email, $dominio);
 		return in_array($dominio[1], $tipos) ? "B2C" : "B2B";
 	}
