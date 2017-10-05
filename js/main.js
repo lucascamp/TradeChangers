@@ -26,7 +26,7 @@
   $(window).scroll(function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
-      $('#logo').attr("src", "img/logo_branco.png");
+      $('#logo').attr("src", "http://tradechangers.com.br/img/logo_branco.png");
     } else {
       $("#mainNav").removeClass("navbar-shrink");
       $('#logo').attr("src", "http://tradechangers.com.br/img/logo.png");
