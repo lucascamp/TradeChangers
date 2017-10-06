@@ -82,6 +82,7 @@
           <h3 class="section-subheading text-muted">Esses são nossos conteúdos em destaque.</h3>
         </div>
       </div>
+
       <div class="row">
         <div class="col-md-4 col-sm-6 conteudo-item">
         <a class="conteudo-link" href="<?= base_url(); ?>conteudo/juros">
@@ -126,8 +127,43 @@
             <p class="text-muted">Saia da zona de conforto e construa a sua aposentadoria por meio dos fundos de investimento.</p>
           </div>
         </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-4 col-sm-6 conteudo-item">
+        <a class="conteudo-link" href="<?= base_url(); ?>conteudo/bolsavalores">
+            <div class="conteudo-hover">
+              <div class="conteudo-hover-content">
+                <center>Saiba mais!</center>
+              </div>
+            </div>
+            <img class="img-fluid" src="<?= base_url(); ?>/img/bolsa_sm.png" alt="">
+          </a>
+          <div class="conteudo-caption">
+            <h4>Ganhe dinheiro com a bolsa de valores</h4>
+            <p class="text-muted">Vamos te contar tudo o que você precisa saber sobre bolsa de valores e
+            como ganhar dinheiro nela.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 conteudo-item">
+        <a class="conteudo-link" href="<?= base_url(); ?>conteudo/percaomedo">
+            <div class="conteudo-hover">
+              <div class="conteudo-hover-content">
+                <center>Saiba mais!</center>
+              </div>
+            </div>
+            <img class="img-fluid" src="<?= base_url(); ?>/img/medo_sm.png" alt="">
+          </a>
+          <div class="conteudo-caption">
+            <h4>Perca seu medo de perder dinheiro</h4>
+            <p class="text-muted">Aprenda como você pode estar perdendo dinheiro e a manter ele protegido!</p>
+          </div>
+        </div>
         
       </div>
+
     </div>
   </section>
 

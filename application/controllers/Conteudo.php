@@ -23,6 +23,16 @@ class Conteudo extends CI_Controller {
 	{
 		$this->load->view('conteudo/futuroprevidencia');
 	}
+
+	public function bolsavalores()
+	{
+		$this->load->view('conteudo/bolsa');
+	}
+
+	public function percaomedo()
+	{
+		$this->load->view('conteudo/perderdinheiro');
+	}
 }
 
 

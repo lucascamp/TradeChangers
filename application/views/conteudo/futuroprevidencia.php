@@ -77,7 +77,7 @@
           <h2>Sem a Previdência social, o que irá garantir meu futuro?</h2>
           <p class="item-intro text-muted"></p>
           <img class="img-fluid d-block mx-auto" src="<?= base_url(); ?>/img/previdencia.png" alt="">
-          <p align="Justify">Já é de comum conhecimento que a Previdência social não irá oferecer ao
+          </p><p class='text' align ="Justify">Já é de comum conhecimento que a Previdência social não irá oferecer ao
             cidadão o mínimo necessário para viver uma velhice com conforto e
             tranquilidade. Os números não fecham e com a reforma previdenciária, esse
             benefício só nos estará disponível tardiamente.
@@ -86,12 +86,14 @@
             fazer com o dinheiro poupado. Sendo assim, muitas pessoas enxerga apenas a
             previdência privada como solução para uma aposentadoria de qualidade, mas
             será este o certo a se fazer?
+            </p><p class='text' align ="Justify">
             Existe uma relação inversamente proporcional entre a segurança que um
             investimento tem e o rendimento que ele gera, sendo que, quanto mais
             segurança, menor é o rendimento fornecido, e quanto mais arrojado for o
             investimento, maior potencial de altos ganhos. Diante dessa matemática, é
             necessário que se faça uma breve análise da jornada do seu dinheiro quando
             aplicado em previdência privada.
+            </p><p class='text' align ="Justify">
             Ao procurar um grande banco para abertura de uma previdência privada, a
             conversa iniciará com a taxa de carregamento do aporte financeiro. Essa taxa
             chega até a 5% e será cobrada toda vez em que o cliente for aportar qualquer
@@ -103,6 +105,7 @@
             taxa de administração, mesmo tratando-se de um investimento muito simples
             de ser gerenciado pela instituição, com mínimos riscos, além da remuneração
             que o cliente já fornece ao banco por todo aporte feito.
+            </p><p class='text' align ="Justify">
             Sendo assim, um rendimento que já é baixo irá sofrer muito com um desconto
             de até 3,5% ao ano. Agora o cliente acredita que acabou, que tudo o que
             deveria ser pago já foi e crê que só lhe esperar tranquilo para, em sua velhice,
@@ -111,6 +114,7 @@
             mão sem que antes sejam retirados algumas fatias, uma para o próprio banco,
             com a taxa de saída e outra bem significante para o governo, com a cobrança
             do IR, podendo chegar até 27,5% sobre o total investido.
+            </p><p class='text' align ="Justify">
             E agora, o que se deve fazer? Qual é a melhor saída? A recomendação de
             todos os especialistas é sempre ter uma diversificação nos investimentos
             feitos. O ideal é que o cliente dilua os valores disponíveis para investir, sendo
@@ -118,9 +122,9 @@
             necessitam tanto da sua atenção e cuidado, e a outra parcela em investimento
             em renda variável. A vantagem de diversificar é que por um lado o cliente
             garante segurança financeira com um retorno razoável e por outro lado,
-
             ousadia para estudar investimentos mais arrojados com possibilidades de altos
             ganhos.
+            </p><p class='text' align ="Justify">
             Quando o assunto é sair da zona de conforto e planejar os seus investimentos,
             as opções são as mais generalizadas possíveis. Pode-se pensar em títulos do
             tesouro como o Tesouro IPCA+, que paga uma rentabilidade definida
